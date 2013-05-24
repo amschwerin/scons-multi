@@ -4,7 +4,7 @@ import os
 import subprocess
 import sys
 
-SCONS_VERSION=os.environ.get('SCONS_VERSION', "2.1.0")
+SCONS_VERSION=os.environ.get('SCONS_VERSION', "2.3.0")
 
 scons_dir = os.path.join(os.path.dirname(__file__), 'scons-' + SCONS_VERSION)
 
